@@ -1,9 +1,11 @@
 @import "tailwindcss";
+@import "./font.css";
 
 :root {
   --background: #ffffff;
   --foreground: #0f172a;
 }
+
 
 @theme {
   --color-background: var(--background);
@@ -61,6 +63,7 @@ body {
   font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   overflow-x: hidden;
 }
+
 
 /* Glassmorphism utility */
 .glass-panel {

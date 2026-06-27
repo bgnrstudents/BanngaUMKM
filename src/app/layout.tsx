@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { plusJakartaSans } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Bangga UMKM - Kelola Usaha Lebih Cerdas",
@@ -22,9 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className="scroll-smooth">
+    <html
+      lang="id"
+      className={`scroll-smooth ${plusJakartaSans.variable}`}
+    >
       <body
-        className="font-sans min-h-screen bg-white text-slate-900 antialiased selection:bg-brand-medium/10 selection:text-brand-medium"
+        className="min-h-screen bg-white text-slate-900 antialiased selection:bg-brand-medium/10 selection:text-brand-medium font-plus-jakarta"
       >
         {children}
       </body>
