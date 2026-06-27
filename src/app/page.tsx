@@ -8,7 +8,6 @@ import {
   FileText,
   TrendingUp,
   MessageSquare,
-  ShieldAlert,
   Landmark,
   ShieldCheck,
   Check,
@@ -24,7 +23,6 @@ import {
   MapPin,
   Star,
   Sparkles,
-  HelpCircle,
   ExternalLink
 } from "lucide-react";
 
